@@ -1,0 +1,30 @@
+.option p:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.option {
+  background-color: red;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+
+  padding: 10px;
+}
+
+.option:hover {
+  background-color: gray;
+}
+
+.button {
+  width: 100%;
+}
+.optionsContainer {
+  display: block;
+  margin:  0 auto;
+  width: 35%;
+}

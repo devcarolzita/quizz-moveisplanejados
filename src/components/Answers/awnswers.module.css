@@ -1,0 +1,25 @@
+.btnRedirect {
+  background: red;
+  border-radius: 20px;
+  width: 60%;
+  text-align: center;
+  height: 20%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation-name: animationBtn;
+  animation-duration: .8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.btnRedirect:hover {
+  background: #95D950 ;
+}
+
+@keyframes animationBtn {
+   100%{
+    transform: scale(1.1);
+   }
+}
